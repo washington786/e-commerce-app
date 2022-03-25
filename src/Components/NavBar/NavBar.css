@@ -1,0 +1,122 @@
+.logo{
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+}
+
+.icon-logo{
+    font-size: 40px;
+    padding-right:5px;
+}
+
+.search-container{
+    width: 100%!important;
+    height: 50px!important;
+    background-color: '#fff'!important;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
+    align-items: center;
+    display: flex;
+    border-radius: 50px;
+    /* padding-left: 20px; */
+}
+
+.search-icon{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 13px;
+    margin: auto;
+    align-self: center;
+    text-align: center;
+    display: block;
+    background-color:'#ff0000'
+}
+
+.search-icon-con{
+    background-color: white !important;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    display:'flex';
+    border-bottom-right-radius: 0; 
+    border-top-right-radius: 0;
+}
+
+.search-input{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    border: none;
+    outline: none; 
+    border-bottom-left-radius: 0; 
+    border-top-left-radius: 0;
+}
+.content-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.login-btn {
+    background: #141414;
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    /* width: 150px; */
+    text-transform: uppercase;
+  }
+  
+  .login-btn:hover {
+    background: transparent;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+  }
+
+
+.register-btn{
+    background: transparent;
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: Arial;
+    color: #000;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    outline: none;
+    border: 1px solid #000;
+    /* width: 120px; */
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.register-btn:hover{
+    background: #000;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+}
+.buttons-con{
+    flex:3;
+    /* background-color: #333 */
+    padding-left: 25px;
+}
+/* .cart-con{
+    /* background-color: aqua; 
+    flex: 1;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.cart-icon{
+    font-size: 33px;
+    padding-right: 25px;
+} */
